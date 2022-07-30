@@ -1,0 +1,30 @@
+.container-controll {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1122px) {
+  .container-controll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section {
+    overflow-x: scroll;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(97, 176, 97);
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(97, 176, 97);
+  }
+}
